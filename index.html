@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="google-site-verification" content="Zkc2qZbybLwmszEV1AOTRuG1xVqRxL1Z0qdycxP-pf0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Shape sound on any website with EQ Toolkit.">
+  <meta name="theme-color" content="#0f0f1a">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="EQ Toolkit — Audio equalizer for Chrome">
+  <meta property="og:description" content="Shape sound on any website with EQ Toolkit.">
+  <meta property="og:url" content="https://maitrog.github.io/eq-toolkit/">
+  <meta property="og:site_name" content="EQ Toolkit">
+  <meta property="og:image" content="https://maitrog.github.io/eq-toolkit/icon.png">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="EQ Toolkit — Audio equalizer for Chrome">
+  <meta name="twitter:description" content="Shape sound on any website with EQ Toolkit.">
+  <meta name="twitter:image" content="https://maitrog.github.io/eq-toolkit/icon.png">
+  <title>EQ Toolkit — Audio equalizer for Chrome</title>
+  <link rel="icon" href="icon.png">
+  <link rel="canonical" href="https://maitrog.github.io/eq-toolkit/">
+  <link rel="alternate" hreflang="en" href="https://maitrog.github.io/eq-toolkit/?lang=en">
+  <link rel="alternate" hreflang="ru" href="https://maitrog.github.io/eq-toolkit/?lang=ru">
+  <link rel="alternate" hreflang="x-default" href="https://maitrog.github.io/eq-toolkit/">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "EQ Toolkit",
+    "applicationCategory": "BrowserApplication",
+    "operatingSystem": "Windows, macOS, Linux, ChromeOS",
+    "description": "Shape sound on any website with a multiband equalizer, volume boost, presets, spectrum visualization, shortcuts, and auto-start.",
+    "url": "https://maitrog.github.io/eq-toolkit/",
+    "downloadUrl": "https://chromewebstore.google.com/detail/dlilpinpaihdcfdjnofegabgoijmmoja?utm_source=landing",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    }
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="EQ Toolkit">
+        <img src="resources/icon.png" alt="" width="40" height="40">
+        <span>EQ Toolkit</span>
+      </a>
+      <nav data-i18n-aria-label="navLabel">
+        <a href="#features" data-i18n="navFeatures">Features</a>
+        <a href="#how-it-works" data-i18n="navHow">How it works</a>
+        <a href="#install" data-i18n="navInstall">Install</a>
+      </nav>
+      <button id="language-switch" class="language-switch" type="button" aria-label="Switch language to Russian">RU</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero page-width">
+      <div class="hero-copy">
+        <p class="eyebrow" data-i18n="eyebrow">Sound tuned to you</p>
+        <h1 data-i18n="heroTitle">Your sound. Your rules.</h1>
+        <p class="hero-text" data-i18n="heroText">Boost volume, shape every frequency, and save your favorite sound — right in the browser.</p>
+        <a class="store-link" href="https://chromewebstore.google.com/detail/dlilpinpaihdcfdjnofegabgoijmmoja?utm_source=landing" target="_blank" rel="noreferrer">
+          <img src="https://developer.chrome.com/static/docs/webstore/branding/image/HRs9MPufa1J1h5glNhut.png" alt="Available in the Chrome Web Store" data-i18n-alt="storeAlt" width="206" height="58">
+        </a>
+      </div>
+
+      <img class="product-preview" src="resources/eqtoolkit.png" width="680" height="489"
+        alt="EQ Toolkit equalizer interface" data-i18n-alt="previewAlt">
+    </section>
+
+    <section id="features" class="section page-width">
+      <p class="eyebrow" data-i18n="featuresEyebrow">Everything within reach</p>
+      <h2 data-i18n="featuresTitle">Make every tab sound better</h2>
+      <div id="feature-grid" class="feature-grid"></div>
+    </section>
+
+    <section id="how-it-works" class="section steps-section">
+      <div class="page-width">
+        <p class="eyebrow" data-i18n="howEyebrow">Simple by design</p>
+        <h2 data-i18n="howTitle">From install to your sound in three steps</h2>
+        <ol id="steps" class="steps"></ol>
+      </div>
+    </section>
+
+    <section id="install" class="install-section page-width">
+      <div>
+        <p class="eyebrow">EQ Toolkit</p>
+        <h2 data-i18n="installTitle">Ready to hear the difference?</h2>
+        <p data-i18n="installText">Add EQ Toolkit to Chrome and take control of sound on every website.</p>
+      </div>
+      <a class="store-link" href="https://chromewebstore.google.com/detail/dlilpinpaihdcfdjnofegabgoijmmoja?utm_source=github" target="_blank" rel="noreferrer">
+        <img src="https://developer.chrome.com/static/docs/webstore/branding/image/HRs9MPufa1J1h5glNhut.png" alt="Available in the Chrome Web Store" data-i18n-alt="storeAlt" width="206" height="58">
+      </a>
+    </section>
+  </main>
+
+  <footer class="page-width">
+    <span>© Maitrog</span>
+    <div>
+      <a href="https://github.com/Maitrog/volume-equalizer-extensions" target="_blank" rel="noreferrer">GitHub</a>
+      <a href="https://github.com/Maitrog/volume-equalizer-extensions/blob/main/PRIVACY.md" target="_blank" rel="noreferrer" data-i18n="privacy">Privacy</a>
+    </div>
+  </footer>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>

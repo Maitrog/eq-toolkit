@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://maitrog.github.io/eq-toolkit/sitemap.xml
